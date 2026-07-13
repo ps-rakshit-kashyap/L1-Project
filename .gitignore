@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Uploaded project files (ZIPs + extracted repos)
+uploaded_projects/
+
+# Database / vector store
+database/chroma/
+database/*.db
+
+# Logs
+logs/
+*.log
+
+# Project-specific
+.agents/
+
+# Environment files
+.env
+.env.local
+.env.*.local
